@@ -1,0 +1,125 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px; 
+}
+
+header{    
+    background: url(../images/aizhan.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+
+h5,h6{
+    text-align: center;
+}
+
+/* navbar */
+
+.nav-wrapper{
+    background-color: #03a8f459;
+}
+
+.container{
+    width: 80%;
+}   
+
+.card{
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 380px;
+    border-radius: 10px;
+}
+
+
+
+.card .card-action {
+    background-color: inherit;
+}
+
+.section{
+    padding-top: 4vw;
+    padding-bottom:4vw;
+}
+
+.fa-2x {
+    background: #3da6b4;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+
+/* About */
+
+.about-me-paragraph{
+    margin-top:50px;
+}
+
+
+
+.container .box{
+    width: 25%;
+    float:left;
+}
+
+.container .box .chart{
+    position: relative;
+    width: 110px;
+    height:110px;
+    margin: 0 auto;
+    text-align: center;
+    font-size:30px;
+    line-height: 110px;
+}
+
+.container .box canvas{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+/* Education */
+
+h2{
+    margin-bottom: 50px;
+}
+
+.timeline-row{
+    width: 2px;
+    height: 100%;
+    top: 2px;
+    position: relative;
+    background-color: #c7d4dc;
+    left: calc(50% - 1px);
+}
+ 
+/* Experience */
+
+#experience p{
+    color:white;
+}
+
+#experience .row{
+    margin-bottom:0;
+}
+
+#experience div{
+    text-align:center;
+    border-radius: 0 50px 0 50px;
+}
+
+  
+  /* Mobile-responsiveness */
+  
+  @media screen and (max-width:670px){
+    header{
+        min-height:500px;
+    }
+    .container .box{
+        clear: both;  
+        margin:0 auto;
+   }
+   #skills{
+    margin-left: 150px;
+}
+}
