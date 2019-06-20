@@ -1,5 +1,5 @@
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'El Messiri', sans-serif;
     font-size: 14px; 
 }
 
@@ -12,6 +12,20 @@ header{
 
 h5,h6{
     text-align: center;
+}
+
+.card-title h2{
+    border-bottom: 6px solid red;
+}
+
+.title{
+    padding:20px;
+    margin-top:0;
+    background-color: rgb(138, 157, 170);
+    text-shadow: 1px 1px white, 
+                2px 2px white, 
+                3px 3px white;
+    font-weight: bold;
 }
 
 /* navbar */
@@ -80,10 +94,6 @@ h5,h6{
 
 /* Education */
 
-h2{
-    margin-bottom: 50px;
-}
-
 .timeline-row{
     width: 2px;
     height: 100%;
@@ -106,6 +116,18 @@ h2{
 #experience div{
     text-align:center;
     border-radius: 0 50px 0 50px;
+}
+
+/* Portfolio */
+
+#portfolio img, .title{
+    box-shadow: 0 10px 16px 0;
+}
+
+
+/* Footer */
+a{
+    color: white;
 }
 
   
