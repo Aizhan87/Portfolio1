@@ -1,4 +1,4 @@
-$(function () {
+$(document).ready(function () {
     $('.sidenav').sidenav();
     $('.slider').slider();
     $('.materialboxed').materialbox();
@@ -10,7 +10,9 @@ $(function () {
     $('.tooltipped').tooltip();
     $('.scrollspy').scrollSpy();
     $('.chart').easyPieChart({
-        //your options goes here
     });
 });
 
+AOS.init({
+    duration: 700,
+});

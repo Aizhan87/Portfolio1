@@ -14,9 +14,6 @@ h5,h6{
     text-align: center;
 }
 
-.card-title h2{
-    border-bottom: 6px solid red;
-}
 
 .title{
     padding:20px;
@@ -45,7 +42,9 @@ h5,h6{
     border-radius: 10px;
 }
 
-
+.card-title h2{
+    border-bottom: 6px solid red;
+}
 
 .card .card-action {
     background-color: inherit;
@@ -60,6 +59,10 @@ h5,h6{
     background: #3da6b4;
     border-radius: 100px;
     padding: 10px;
+}
+
+.sidenav-overlay{
+    z-index: 0;
 }
 
 
@@ -127,9 +130,12 @@ h5,h6{
 
 /* Footer */
 a{
-    color: white;
+    color: rgb(224, 46, 46);
 }
 
+.contact-info{
+    background-color: rgb(77, 109, 167);
+}
   
   /* Mobile-responsiveness */
   
@@ -142,6 +148,13 @@ a{
         margin:0 auto;
    }
    #skills{
-    margin-left: 150px;
+    margin-left: 130px;
+}
+
+.card{
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 330px;
+    border-radius: 10px;
 }
 }
