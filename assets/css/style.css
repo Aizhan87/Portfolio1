@@ -145,6 +145,7 @@ a{
 /* Go to top button */
 
 .gototop{
+    display: none;
     position: fixed;
     background-color:rgb(22, 38, 110);
     bottom:40px;
@@ -172,5 +173,9 @@ a{
     margin-left: 30px;
     width: 300px;
     border-radius: 10px;
+}
+.gototop{
+    font-size:20px;
+    padding:10px;
 }
 }

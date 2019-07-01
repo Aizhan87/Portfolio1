@@ -16,3 +16,14 @@ $(document).ready(function () {
 AOS.init({
     duration: 700,
 });
+
+const backToTop = document.querySelector(".gototop");
+window.addEventListener("scroll", scrollFunction);
+
+function scrollFunction() {
+    if (window.pageYOffset > 300) {
+        backToTop.style.display = "block";
+    } else {
+        backToTop.style.display = "none";
+    }
+}
